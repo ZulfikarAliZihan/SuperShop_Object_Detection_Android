@@ -6,13 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <Button
-        android:id="@+id/take_photoBtn"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="146dp"
-        android:layout_marginBottom="20dp"
-        android:text="Take Photo" />
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="21dp"
+        android:text="Button" />
 </RelativeLayout>
